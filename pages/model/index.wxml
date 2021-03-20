@@ -1,0 +1,8 @@
+<view class="container">
+  <button type="primary" bindtap="showModel">showModel</button>
+  <button type="primary" data-title="保存成功！" data-icon="success" bindtap="showToast">showToast</button>
+  <button type="error" data-title="保存失败！" data-icon="error" bindtap="showToast">showToast</button>
+  <button type="primary" bindtap="showLoading">showLoading</button>
+  <button type="primary" bindtap="showActionSheet">showActionSheet</button>
+  
+</view>
