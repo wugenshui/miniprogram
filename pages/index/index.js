@@ -10,7 +10,7 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     canIUseGetUserProfile: true,
-    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
+    date: '2021-03-20 18:12'
   },
   // 事件处理函数
   bindViewTap() {
@@ -37,11 +37,11 @@ Page({
   },
   getUserInfo(e) {
     console.log('getUserInfo', e)
-    // 不推荐使用getUserInfo获取用户信息，预计自2021年4月13日起，getUserInfo将不再弹出弹窗，并直接返回匿名的用户个人信息
-    // console.log(e)
-    // this.setData({
-    //   userInfo: e.detail.userInfo,
-    //   hasUserInfo: true
-    // })
+  },
+  onPickerChange(e) {
+    console.log(e)
+    this.setData({
+      date: e.detail.dateString
+    })
   }
 })

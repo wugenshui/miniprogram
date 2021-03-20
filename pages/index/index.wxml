@@ -8,4 +8,6 @@
   <navigator open-type="navigate" url="/pages/logs/logs">地图</navigator>
   <navigator open-type="navigate" url="/pages/model/index">model</navigator>
 
+  <pickerYMDHM date="{{date}}" bind:onPickerChange="onPickerChange"></pickerYMDHM>
+
 </view>
