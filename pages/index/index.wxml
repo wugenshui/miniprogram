@@ -7,7 +7,7 @@
 
   <navigator open-type="navigate" url="/pages/logs/logs">地图</navigator>
   <navigator open-type="navigate" url="/pages/model/index">model</navigator>
+  <navigator open-type="navigate" url="/pages/form/index">form</navigator>
 
-  <pickerYMDHM date="{{date}}" bind:onPickerChange="onPickerChange"></pickerYMDHM>
 
 </view>

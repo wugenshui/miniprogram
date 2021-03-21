@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "pickerYMDHM": "/components/pickYMDHM/index"
+  }
+}

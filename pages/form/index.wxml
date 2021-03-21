@@ -1,0 +1,5 @@
+<form bindsubmit="submit">
+  <pickerYMDHM name="startDate" date="{{date}}" bind:onPickerChange="onPickerChange"></pickerYMDHM>
+  <input name="content" value="{{content}}" />
+  <button form-type="submit">submit</button>
+</form>
