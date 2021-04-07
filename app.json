@@ -4,7 +4,11 @@
     "pages/map/map",
     "pages/logs/logs",
     "pages/model/index",
-    "pages/form/index"
+    "pages/form/index",
+    "pages/weui/dialog/index",
+    "pages/weui/badge/index",
+    "pages/weui/gallery/index",
+    "pages/weui/form/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,5 +17,8 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
+  "useExtendedLib": {
+    "weui": true
+  },
   "sitemapLocation": "sitemap.json"
 }

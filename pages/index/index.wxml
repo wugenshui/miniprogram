@@ -9,5 +9,10 @@
   <navigator open-type="navigate" url="/pages/model/index">model</navigator>
   <navigator open-type="navigate" url="/pages/form/index">form</navigator>
 
+  <navigator open-type="navigate" url="/pages/weui/dialog/index">dialog</navigator>
+  <navigator open-type="navigate" url="/pages/weui/badge/index">badge</navigator>
+  <navigator open-type="navigate" url="/pages/weui/gallery/index">gallery</navigator>
+  <navigator open-type="navigate" url="/pages/weui/form/index">form</navigator>
+
 
 </view>
